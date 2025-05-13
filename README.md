@@ -94,7 +94,7 @@ DB_PASSWORD=votre_mot_de_passe
 
     ```bash
     git clone https://github.com/escalopeviandehache/life-simulator-kd.git
-    cd life-simulator-kd
+    cd life-simulator-kd-main
     ```
 
 2. Installez les dépendances npm :
@@ -124,10 +124,10 @@ DB_PASSWORD=votre_mot_de_passe
 
 ## Installation du front-end (Vue.js)
 
-1. Allez dans le dossier du projet :
+1. Accédez au dossier  du projet :
 
     ```bash
-    cd life-simulator-kd
+    cd life-simulator-kd-main
     ```
 
 2. Installez les dépendances npm :
@@ -136,25 +136,31 @@ DB_PASSWORD=votre_mot_de_passe
     npm install
     ```
 
+3. Compilez le projet :
+
+    ```bash
+    npm run build
+    ```
+
 ## Lancer l'application
 
 1.1 **Démarrer le back-end**  
    ```bash
-   cd life-simulator-kd
+   cd life-simulator-kd-main
    php artisan serve
    ```  
    par défaut sur http://127.0.0.1:8000
 
 1.2 **Démarrer le front-end**  
    ```bash
-   cd life-simulator-kd
+   cd life-simulator-kd-main
    npm run serve
    ```  
    par défaut sur http://127.0.0.1:8080
 
 2.0 **Démarrer le front-end et le back-end**  
    ```bash
-   cd life-simulator-kd
+   cd life-simulator-kd-main
    composer run dev
    ```  
    par défaut sur http://127.0.0.1:8000 et http://127.0.0.1:8080
